@@ -1,0 +1,9 @@
+hello_app:test:
+branches:
+  only:
+  - master
+
+stage: test
+
+script:
+  - pytest
