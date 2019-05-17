@@ -3,6 +3,8 @@ branches:
   only:
   - master
 
+language: python
+
 stage: test
 
 script:
